@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <Grid>
-        <!-- WebView2 컨트롤: Source는 개발 단계에서 React 개발 서버 URL로 설정 -->
-        <wv2:WebView2 x:Name="webView2" Source="localhost:3000" />
+        <!-- Ensure the WebView2 control has the correct x:Name -->
+        <wv2:WebView2 x:Name="webView2"/>
     </Grid>
 </Window>
